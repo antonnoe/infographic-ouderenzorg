@@ -1,0 +1,77 @@
+<!-- INFOGRAPHIC EMBED - Ouderenzorg Frankrijk -->
+<!-- Plaats deze code waar de thumbnail nu staat in het artikel -->
+
+<div style="max-width: 900px; margin: 0 auto 30px auto; font-family: 'Mulish', system-ui, sans-serif;">
+
+<!-- Inklapbare balk -->
+<div style="border: 2px solid #800000; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(128,0,0,0.1);">
+
+<!-- Klikbare header -->
+<button onclick="this.parentElement.querySelector('.infographic-content').classList.toggle('open'); this.querySelector('.toggle-icon').textContent = this.parentElement.querySelector('.infographic-content').classList.contains('open') ? '▲' : '▼';" 
+    style="width: 100%; padding: 18px 25px; background: linear-gradient(135deg, #800000 0%, #600000 100%); border: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 15px;">
+    <span style="font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 600; color: white; display: flex; align-items: center; gap: 12px;">
+        📊 Bekijk infographic: Ouderenzorg stap-voor-stap
+    </span>
+    <span class="toggle-icon" style="font-size: 14px; color: white; transition: transform 0.3s ease;">▼</span>
+</button>
+
+<!-- Inklapbare content -->
+<div class="infographic-content" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease;">
+    
+    <!-- Iframe container -->
+    <div style="position: relative; width: 100%; padding-top: 75%; background: #faf8f6;">
+        <iframe 
+            src="https://JOUW-GEBRUIKERSNAAM.github.io/ouderenzorg-infographic/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+            loading="lazy"
+            title="Infographic Ouderenzorg en Thuiszorg in Frankrijk"
+            allow="fullscreen">
+        </iframe>
+    </div>
+    
+    <!-- Fullscreen link -->
+    <div style="padding: 12px 20px; background: #f5f5f5; border-top: 1px solid #e0e0e0; text-align: center;">
+        <a href="https://JOUW-GEBRUIKERSNAAM.github.io/ouderenzorg-infographic/" 
+           target="_blank" 
+           rel="noopener"
+           style="font-family: 'Mulish', sans-serif; font-size: 14px; color: #800000; text-decoration: none; font-weight: 600;">
+            🔗 Open infographic in nieuw venster →
+        </a>
+    </div>
+    
+    <!-- SEO Fallback Content (verborgen voor gebruikers, zichtbaar voor zoekmachines) -->
+    <noscript>
+        <div style="padding: 25px;">
+            <h2 style="color: #800000; font-size: 22px; margin-bottom: 15px;">Ouderenzorg & Thuiszorg in Frankrijk — Stap-voor-stap</h2>
+            
+            <h3 style="color: #800000; font-size: 18px; margin: 20px 0 10px 0;">Voorbereidende stappen</h3>
+            <p>1. Sociale zekerheid: Inschrijving bij CPAM voor Carte Vitale en Franse zorgverzekering.</p>
+            <p>2. Huisarts kiezen: Registratie van médecin traitant bij CPAM.</p>
+            <p>3. Documenten verzamelen: Identiteitsbewijs, verblijfsvergunning, avis d'impôt, medische gegevens, RIB.</p>
+            
+            <h3 style="color: #800000; font-size: 18px; margin: 20px 0 10px 0;">APA Aanvraag</h3>
+            <p>Allocation Personnalisée d'Autonomie: aanvraag via demande-autonomie.gouv.fr of CCAS/Mairie. Na evaluatie volgt GIR-classificatie (1-6) en een persoonlijk zorgplan.</p>
+            
+            <h3 style="color: #800000; font-size: 18px; margin: 20px 0 10px 0;">Belangrijke loketten</h3>
+            <p>CCAS (Centre Communal d'Action Sociale), Conseil Départemental, CPAM, en Mairie.</p>
+            
+            <h3 style="color: #800000; font-size: 18px; margin: 20px 0 10px 0;">Doorlooptijden</h3>
+            <p>APA-aanvraag: 2-4 maanden. Thuiszorg opstart: 2-8 weken. Verpleegzorg thuis: 1-2 weken. EHPAD-plaatsing: 3-18 maanden.</p>
+            
+            <p style="margin-top: 20px;"><strong>Meer informatie:</strong> <a href="https://www.pour-les-personnes-agees.gouv.fr/">pour-les-personnes-agees.gouv.fr</a></p>
+        </div>
+    </noscript>
+    
+</div>
+
+</div>
+
+</div>
+
+<style>
+.infographic-content.open {
+    max-height: 2000px !important;
+}
+</style>
+
+<!-- EINDE INFOGRAPHIC EMBED -->
